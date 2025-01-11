@@ -5,7 +5,8 @@ import tensorflow as tf
 import io
 
 # Load the model
-MODEL = tf.keras.models.load_model("/Users/manojrammopati/Project/DATA SCIENCE ML PROJECTS/Potato Disease Classifier/Model/1.keras")
+#MODEL = tf.keras.models.load_model("/Users/manojrammopati/Project/DATA SCIENCE ML PROJECTS/Potato Disease Classifier/Model/1.keras")
+MODEL = tf.keras.models.load_model("Model/1.keras")
 CLASS_NAMES = ["EARLY BLIGHT", "LATE BLIGHT", "HEALTHY"]
 
 # Function to read file as image
